@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="87bbe3a3-6ca2-4e74-bf4d-0d1f67361f2d">
+  <producedTypes>
+    <objectType typeId="bd23982f-0d50-488a-82bf-5422e30ea233" valueTypeId="3d96cbdf-6a5d-431b-8d80-e21e9b86cc53"/>
+    <refType typeId="e899a982-6818-460d-94bc-bec58076e12f" valueTypeId="703ac8c9-20df-41a1-ad3a-6c24bdd734d5"/>
+    <selectionType typeId="56eb1739-bc4a-4762-b526-70fc2d73e21a" valueTypeId="db834a3b-6339-4123-8a1a-128930040274"/>
+    <listType typeId="8aef438e-96f6-4876-aa58-e22a778b838b" valueTypeId="5fc56060-deda-4e08-a950-049732cf69e0"/>
+    <managerType typeId="0141cde4-2228-494b-8229-e73aeaed9274" valueTypeId="2c379481-4a1d-4695-a572-61e26ee22b0c"/>
+  </producedTypes>
+  <name>ВКМ_УведомленияТелеграмБотуДляОтправки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уведомления телеграм боту для отправки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="2942846a-70d6-4002-838b-b0b2d4e94836">
+    <name>Текст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
